@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:#007BFF;
+    --cor1: #FF7F50;
+    --cor2: #85C1E9;
+    --cor3: #FFD1A9;    
+    --cor4: #00509E;
+    --cor5: #FF4500;
+    --cor6: #F2F2F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(to right, var(--cor5), var(--cor4));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    font-size: 1.7em;
+    margin: 10px;
+    padding: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.411);
+    margin-top: 40px;
+    margin-block-end: -30px;
+}
+
+header > nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background:linear-gradient(to right, var(--cor1), var(--cor0));
+    text-align: left;
+    margin-top: 40px;
+    margin-block-end: -47px;
+}
+
+main {
+    background:linear-gradient(to right, var(--cor1), var(--cor0));
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.411);
+    padding: 10px;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    max-width: 800;
+    margin: auto;
+}
+
+div > img {
+    margin-left: 250px;
+}
+
+div {
+    padding: 10px;
+    line-height: 1.1;
+    
+}
+
+div  h2 {
+    margin-left: 240px;
+}
+
+div > p { 
+    text-decoration:none;
+    justify-content: center;
+    min-height: 100px; 
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
